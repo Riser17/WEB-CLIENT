@@ -1,0 +1,29 @@
+.container1 {
+    position: relative;
+    text-align: center;
+    height: 44.65vh;
+    
+        display: flex;
+        align-items: center;
+   justify-content: center;
+  
+   color: #FFFAFA;
+   font-family: "Lora", Sans-serif;
+   font-size: 32px;
+   font-weight: bold;
+   line-height: 1.5em;
+    
+  }
+
+
+  .banner1{
+    width: 100vw;
+    min-height: 50vh;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     /* filter: alpha(opacity=40); */
+     z-index: 100;
+  }

@@ -1,0 +1,139 @@
+.logoCss {
+    color: #818a91;
+    font-size: 50px;
+  }
+  
+  .logoCss:hover {
+    color: #ffa500;
+    border-color: #ffa500;
+  }
+
+
+.elementorIconWrapper {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .ourLocationText > p {
+    color: #000080;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.65;
+  }
+  
+  .mainLocations {
+    max-width: 1400px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 3rem;
+  
+    /* position: relative; */
+    /* justify-content: space-between; */
+  }
+  
+  .mainElementContainer {
+    min-width: 20%;
+    max-width: 20%;
+  }
+  
+  .elementColumnGap {
+  }
+  
+ 
+  
+  .mainContryTextFlag {
+    /* height: 4rem; */
+  }
+  
+  .contryTextFlag {
+    display: flex;
+    /* gap: 10rem; */
+    padding-bottom: 9px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  
+  .nethContryTextFlag {
+    display: flex;
+    /* gap: 10rem; */
+    padding-bottom: 9px;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+  }
+  
+  .flagImage {
+    padding-top: 0.5rem;
+  }
+  
+  .ukIndiaText {
+    font-weight: 700;
+    font-size: 30px;
+    /* font-family: sans-serif,Arial, Helvetica, sans-serif; */
+    flex: 2;
+  }
+  
+  .nethAustText {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .alignright {
+    display: inline;
+    float: right;
+    margin-left: 0.5em;
+  }
+  
+  .contactDetalis {
+    padding: 10px 0px 0px 0px;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #0048b6;
+  }
+  .ourLocationText>h5{
+    color: #000080;
+    margin-bottom: 2rem;
+  }
+  @media only screen and (max-width: 1192px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  
+    .mainLocations {
+      display: block !important;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+  
+    .mainElementContainer {
+      max-width: none;
+      min-width: none;
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .mainLocations {
+      margin-right: 1em;
+      margin-left: 3em;
+    }
+  }
+  @media only screen and (min-width: 1193px){
+    .mainLocations {
+      margin-right: 1em;
+      margin-left: 4rem;
+    }
+  } 
+  
+  @media only screen and (min-width: 1400px) {
+    .mainLocations {
+      /* max-width: 1400px; */
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      column-gap: 3rem;
+      /* position: relative; */
+      /* justify-content: space-between; */
+    }
+  }
+  

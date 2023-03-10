@@ -1,0 +1,150 @@
+.contact-content{
+position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+
+.contact-form{
+    /* margin: 25px 25px 25px 25px; */
+    position: relative;
+    /* width: 22%; */
+    padding-top: 8vh;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+
+}
+
+.contact-form-heading{
+    
+    font-family:  "Sans-serif";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: white;
+
+}
+
+.contact-form-text{
+    font-family: 'Arial';
+    text-align: left;
+  color: white;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+
+}
+
+.contact-banner{
+    background: url(../../assets//contact-banner.jpg) no-repeat;
+    padding: 30px 30px 30px 30px;
+    background-size: cover;
+    
+}
+
+
+
+
+.form-content{
+    padding: 2%;
+}
+
+.form-content{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-form{
+        width: 100%;
+    }
+
+    .form-content{
+        width: 66.666%;
+    }
+
+
+    .contact-content{
+        display: block;
+        width: 100%;
+    }
+  }
+
+
+@font-face{
+    font-family: lora-Variable;
+    src: url(../../assets/Fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: lora-Italic-Variable;
+    src: url(../../assets/Fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: OpenSans-Italic-Variable;
+    src: url(../../assets/Fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face{
+    font-family: OpenSans-Variable;
+    src: url(../../assets/Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face{
+    font-family: Raleway-Italic-Variable;
+    src: url(../../assets/Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Raleway-Variable;
+    src: url(../../assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Roboto-Black-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: RobotoBlackItalic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Bold-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: Roboto-BoldItalic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Italic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face{
+    font-family: Roboto-Light-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: Roboto-LightItalic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Medium-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: Roboto-MediumItalic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Regular-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto-Thin-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: Roboto-ThinItalic-Variable;
+    src: url(../../assets/Fonts/Roboto/Roboto-ThinItalic.ttf);
+}
