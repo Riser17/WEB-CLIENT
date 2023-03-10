@@ -1,7 +1,7 @@
 
 import {createContext, useState} from 'react';
 import axios from 'axios'
-const apiUrl = 'http://localhost:9090'
+const apiUrl = 'http://deploy-server-kohl.vercel.app'
 
 export const UserContext = createContext();
 
