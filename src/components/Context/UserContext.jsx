@@ -1,7 +1,7 @@
 
 import {createContext, useState} from 'react';
 import axios from 'axios'
-const apiUrl = 'server-site-p0ezf9x5u-riser17-s-team.vercel.app'
+const apiUrl = 'http://3.80.94.112:9090/api '
 
 export const UserContext = createContext();
 
